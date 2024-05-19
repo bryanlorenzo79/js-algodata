@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+  font-size: 1em;
+  margin: 0px;
+}
+
+.main {
+  color: white;
+}
+
+code {
+  display: block;
+  background-color: lightgrey;
+}
+
+img {
+  margin-left: 2px;
+}
