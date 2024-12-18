@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Fibonacci Sequence</title>
+  </head>
+  <body>
+    <h2>Febonacci Sequence</h2>
+    In mathematics, the Fibonacci sequence is a sequence in which each 
+    number is the sum of the two preceding ones.<br>
+    <script>
+      function fibonacci(n) {
+        const fib = [0, 1];
+        for(let i=2; i < n; i++) {
+          fib[i] = fib[i-1] + fib[i-2];
+        }
+        return fib;
+      }
+      console.log(fibonacci(2));
+      console.log(fibonacci(3));
+      console.log(fibonacci(7));
+    </script>
+    <a href="/algorithm.html">back</a>
+  </body>
+</html>
